@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Topics from "@/components/Topics";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
        {/* Topics section */}
        <Navbar />
        <Topics />
+       <About />
     </div>
   );
 }

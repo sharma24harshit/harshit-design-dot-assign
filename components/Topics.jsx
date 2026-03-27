@@ -10,7 +10,7 @@ const data = [
 
 const Topics = () => {
   return (
-    <section className='w-full '>
+    <section className='w-full'>
         <div className='mx-auto px-8 flex flex-col lg:flex-row items-start lg:items-center gap-[40px]'>
           <button className='flex items-center justify-center bg-[#FF7300] rounded-md font-poppins text-xs font-semibold p-6 transition-all duration-300 hover:bg-orange-600 hover:shadow-md'>HOT TOPICS</button>
           <div className=' flex w-full gap-6 overflow-x-auto lg:overflow-visible'>

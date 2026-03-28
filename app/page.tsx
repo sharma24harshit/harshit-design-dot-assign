@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Topics from "@/components/Topics";
 import About from "@/components/About";
+import Insights from "@/components/Insights";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
        <Navbar />
        <Topics />
        <About />
+       <Insights />
     </div>
   );
 }

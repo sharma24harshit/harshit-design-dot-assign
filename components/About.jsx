@@ -14,7 +14,7 @@ const About = () => {
                             height={100}
                             priority
                         /> */}
-                <div className='grid grid-cols-1 lg:grid-cols-[55%_45%] gap-10 items-start'>
+                <div className='grid grid-cols-1 lg:grid-cols-[53%_43%] gap-10 items-start'>
                     <div className="grid grid-cols-1 lg:grid-cols-[220px_1fr] gap-8 items-start bg-[url('/map.png')] bg-no-repeat bg-center bg-contain">
                     <div className='w-full h-[180px] bg- rounded-[20px] flex items-end justify-start text-left p-6 bg-[#EEEEEE]'>
                         <p className='font-semibold text-4 uppercase'>
@@ -43,12 +43,12 @@ const About = () => {
                     </div>
                     </div>
                     <div className='relative flex flex-col justify-end aspect-[3/2]'>
-                        <div className='max-w-[230px] min-w-[100px] text-xs font-semibold px-4 py-2 rounded-full flex justify-between items-center gap-2 bg-[#FF7300]'>
+                        <div className='absolute top-0 right-0 max-w-[270px] min-w-[130px] text-xs font-semibold px-4 py-2 rounded-full flex justify-between items-center gap-8 bg-[#FF7300]'>
                             We are located
                             <span>India ^</span>
                         </div>
                         <Image
-                        className='mx-auto mt-4 object-contain'
+                        className='mt-12 object-cover rounded-xl'
                             src="/aboutImage.png"
                             alt="About Image" 
                             fill  

@@ -53,26 +53,7 @@ const Hero = () => {
           World
         </p>
       </div>
-        {/* <div className='w-[35%]'>
-        <div>
-            <p className='font-bold text-base uppercase text-[#B8B3B3]'>Accountants and Global Business Advisors</p>
-            <p className='bold text-6xl text-[#FFFFFF]'>EMPOWERED  <br />
-            WORKPLACES</p>
-            <p className=' text-base font-light text-[#FFFFFF]'>by fostering inclusivity, encouraging growth, promoting collaboration, valuing diversity, supporting innovation, and building trust for shared success.</p>
-            <button 
-            className='flex items-center gap-4 justify-center bg-[#FF7300] rounded-md font-poppins text-xs font-semibold p-6 transition-all duration-300 hover:bg-orange-600 hover:shadow-md uppercase'>
-               <Image
-                                src="/rightArrow.svg"
-                                alt="Right Arrow"
-                                width={32}
-                                height={10}
-                                priority
-                            />
-                Lets Connect
-                </button>
-        </div>
-        <p className='tetx-sm font-semibold uppercase text-[#FFFFFF]'>Accounting, Taxation, & Business Advisory between India, Japan, and the World</p>
-        </div> */}
+
         <div className='absolute w-[60%] h-full -right-10 -top-48 -rotate-[32deg] overflow-hidden rounded-[130px]'>
         <div className='relative w-[140%] h-[150%] -left-[20%] -top-[20%] rotate-[32deg] rounded-xl'>
         <Image
@@ -84,20 +65,43 @@ const Hero = () => {
                             />
         </div>
         </div>
-        {/* <div className='w-[65%]'>
-            <div className='border-3 w-full overflow-hidden shadow-lg'>
-                <div className=''>
-                <Image
-        className='w-full object-cover'
-                                src="/hero.jpg"
-                                alt="hero image"
-                                width={900}
-                                height={500}
-                                priority
-                            />
-                            </div>
+
+        <div className="pointer-events-none absolute bottom-6 right-5 z-30 flex flex-wrap items-center gap-3 sm:bottom-8 sm:right-8 lg:bottom-12 lg:right-10 xl:bottom-14 xl:right-12">
+          <div className="flex items-center">
+            <img
+              src="https://i.pravatar.cc/96?img=47"
+              alt=""
+              className="relative z-[1] size-11 rounded-full border-[3px] border-white object-cover shadow-md sm:size-12"
+              width={48}
+              height={48}
+            />
+            <img
+              src="https://i.pravatar.cc/96?img=12"
+              alt=""
+              className="relative z-[2] -ml-3 size-11 rounded-full border-[3px] border-white object-cover shadow-md sm:-ml-4 sm:size-12"
+              width={48}
+              height={48}
+            />
+            <img
+              src="https://i.pravatar.cc/96?img=68"
+              alt=""
+              className="relative z-[3] -ml-3 size-11 rounded-full border-[3px] border-white object-cover shadow-md sm:-ml-4 sm:size-12"
+              width={48}
+              height={48}
+            />
+          </div>
+          <div className="flex size-[50px] shrink-0 items-center justify-center rounded-full bg-[#FF7F11] text-center text-[10px] font-bold uppercase leading-tight tracking-wide text-white shadow-lg sm:size-[52px]">
+            More
+          </div>
+          <div className="flex min-w-0 flex-col gap-0.5 pl-0.5">
+            <span className="text-[2.125rem] font-bold leading-none tracking-tight text-white drop-shadow-md sm:text-[2.625rem]">
+              250+
+            </span>
+            <span className="text-[13px] font-normal leading-snug text-white">
+              Enjoy working with us
+            </span>
+          </div>
         </div>
-        </div> */}
     </section>
   )
 }

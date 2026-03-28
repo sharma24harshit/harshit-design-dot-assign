@@ -32,15 +32,15 @@ const Insights = () => {
 const mapIndex = [0,0,1,2]
 
     return (
-        <section className='w-full mt-20 lg:mt-10 mb-10'>
+        <section className='w-full mt-20 lg:mt-10 2xl:mt-30 mb-10'>
             <div className='max-w-[1820px]mx-auto px-4 md:px-8'>
 
                 <div className='grid grid-cols-1 lg:grid-cols-[53%_43%] gap-10 items-start'>
                     <div className="grid grid-cols-1 lg:grid-cols-[220px_1fr] gap-8 items-start">
                         <div className='w-full lg:h-[180px] rounded-[20px] flex items-end justify-start text-left p-4 lg:p-6 bg-[#EEEEEE]'>
-                            <p className='font-semibold text-lg md:text-xl lg:text-2xl uppercase'>
+                            <p className='font-semibold text-lg md:text-xl lg:text-xl uppercase'>
                                 INSPIRATION &
-                                <br className='hidden lg:block'/>INSIGHTS
+                                <br className='hidden lg:block'/> INSIGHTS
                             </p>
                         </div>
 

@@ -6,18 +6,11 @@ const About = () => {
     return (
         <section className='w-full mt-20'>
             <div className='max-w-[1820px]mx-auto px-4 md:px-8'>
-            {/* <Image
-                        className='mx-auto'
-                            src="/map.png"
-                            alt="map Image"
-                            width={550}
-                            height={100}
-                            priority
-                        /> */}
+
                 <div className='grid grid-cols-1 lg:grid-cols-[53%_43%] gap-10 items-start'>
                     <div className="grid grid-cols-1 lg:grid-cols-[220px_1fr] gap-8 items-start bg-[url('/map.png')] bg-no-repeat bg-center bg-contain">
                     <div className='w-full lg:h-[180px] rounded-[20px] flex items-end justify-start text-left p-4 lg:p-6 bg-[#EEEEEE]'>
-                        <p className='font-semibold uppercase text-lg md:text-xl lg:text-2xl'>
+                        <p className='font-semibold uppercase text-lg md:text-xl lg:text-xl'>
                             About <br className='hidden lg:block'/>FIRM
                         </p>
                     </div>

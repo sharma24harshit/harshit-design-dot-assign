@@ -3,14 +3,14 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className="relative h-[850px] bg-[#00338D] flex w-full overflow-hidden">
+    <section className="relative h-350px md:h-[450px] xl:h-[600px] 2xl:h-[850px] bg-[#00338D] flex w-full overflow-hidden">
           <div className="relative z-20 flex w-full flex-col justify-between px-6 py-10 sm:px-10 sm:py-12 md:px-12 md:py-14 lg:w-[42%] lg:max-w-[640px] lg:shrink-0 lg:px-14 lg:py-16 xl:px-[4.5rem] xl:py-20">
-        <div className="flex max-w-xl flex-col gap-4 lg:gap-9 xl:gap-4 mt-40">
-          <p className="text-base font-bold uppercase leading-relaxed tracking-[0.2em] sm:text-xs text-[#B8B3B3]">
+        <div className="flex max-w-xl flex-col gap-4 lg:gap-4 xl:gap-4 xl:mt-16 2xl:mt-40">
+          <p className="font-bold uppercase leading-relaxed tracking-[0.2em] text-sm xl:text-base text-[#B8B3B3]">
             Accountants and Global Business Advisors
           </p>
 
-          <h1 className="text-[clamp(1.875rem,3.6vw,3.375rem)] font-bold uppercase leading-[1.06] tracking-[0.04em] text-white">
+          <h1 className="text-xl md:text-3xl xl:text-4xl 2xl:text-6xl font-bold uppercase leading-[1.06] tracking-[0.04em] text-black md:text-white">
             Empowered
             <br />
             <span className="mt-1 inline-block border-b-[5px] border-[#B8B3B3] pb-1.5">
@@ -18,16 +18,16 @@ const Hero = () => {
             </span>
           </h1>
 
-          <p className="max-w-[420px] text-[15px] font-light leading-[1.65] text-[#FFFFFF] lg:text-[15px] xl:max-w-md">
+          <p className="max-w-[420px] text-sm font-light leading-[1.65] text-[#FFFFFF] xl:text-base xl:max-w-md text-black md:text-white">
             by fostering inclusivity, encouraging growth, promoting collaboration,
             valuing diversity, supporting innovation, and building trust for shared
             success.
           </p>
 
-          <div className="pt-1">
+          <div >
             <button
               type="button"
-              className="origin-left rounded-l-[10px] bg-[#FF7F11] py-[1.125rem] pl-7 pr-10 text-[11px] font-semibold uppercase tracking-[0.14em] text-black shadow-lg transition-[filter] hover:brightness-95"
+              className="origin-left rounded-l-[10px] bg-[#FF7F11] py-1 md:py-3 py-6 pl-7 pr-10 text-xs lg:text-sm 2xl:text-xs font-semibold uppercase tracking-[0.14em] text-black shadow-lg transition-[filter] hover:brightness-95"
               style={{ transform: "skewX(-14deg)" }}
             >
               <span
@@ -36,7 +36,7 @@ const Hero = () => {
               >
                 <Image
                   src="/rightArrow.svg"
-                  alt=""
+                  alt="right arrow"
                   width={28}
                   height={10}
                   className="shrink-0"
@@ -48,14 +48,14 @@ const Hero = () => {
           </div>
         </div>
 
-        <p className="w-full text-[10px] font-medium uppercase leading-relaxed tracking-[0.16em] text-white sm:text-[11px] lg:mt-14">
+        <p className="w-full text-[10px] font-medium uppercase leading-relaxed tracking-[0.16em] text-red-300 md:text-white sm:text-[11px] lg:mt-8 xl:mt-14">
           Accounting, Taxation, & Business Advisory between India, Japan, and the
           World
         </p>
       </div>
 
-        <div className='absolute w-[60%] h-full -right-10 -top-48 -rotate-[32deg] overflow-hidden rounded-[130px]'>
-        <div className='relative w-[140%] h-[150%] -left-[20%] -top-[20%] rotate-[32deg] rounded-xl'>
+        <div className='absolute w-[100%] md:w-[60%] h-full md:-right-22 lg:-right-20 xl:-right-14 2xl:-right-10 md:-top-20 lg:-top-28 xl:-top-26 2xl:-top-48 rotate-0 md:-rotate-[32deg] overflow-hidden md:rounded-[70px] xl:rounded-[130px]'>
+        <div className='md:relative w-[100%] md:w-[150%] h-[100%] md:h-[150%] -left-[20%] -top-[20%] rotate-0 md:rotate-[32deg] rounded-xl'>
         <Image
         className='object-cover'
                                 src="/hero.jpg"

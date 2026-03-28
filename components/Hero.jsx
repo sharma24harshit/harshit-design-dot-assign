@@ -27,7 +27,7 @@ const Hero = () => {
           <div >
             <button
               type="button"
-              className="origin-left rounded-l-[10px] bg-[#FF7F11] py-1 md:py-3 py-6 pl-7 pr-10 text-xs lg:text-sm 2xl:text-xs font-semibold uppercase tracking-[0.14em] text-black shadow-lg transition-[filter] hover:brightness-95"
+              className="origin-left rounded-l-[10px] bg-[#FF7F11] p-3 md:p-4 2xl:py-6 pl-7 pr-10 text-xs lg:text-sm 2xl:text-xs font-semibold uppercase tracking-[0.14em] text-black shadow-lg transition-[filter] hover:brightness-95"
               style={{ transform: "skewX(-14deg)" }}
             >
               <span
@@ -66,7 +66,7 @@ const Hero = () => {
         </div>
         </div>
 
-        <div className="pointer-events-none absolute bottom-6 right-5 z-30 flex flex-wrap items-center gap-3 sm:bottom-8 sm:right-8 lg:bottom-12 lg:right-10 xl:bottom-14 xl:right-12">
+        <div className="pointer-events-none absolute bottom-1 right-5 z-30 flex flex-wrap items-center gap-3 sm:bottom-10 sm:right-8 lg:bottom-12 lg:right-10 xl:bottom-14 xl:right-12">
           <div className="flex items-center">
             <img
               src="https://i.pravatar.cc/96?img=47"
@@ -94,10 +94,10 @@ const Hero = () => {
             More
           </div>
           <div className="flex min-w-0 flex-col gap-0.5 pl-0.5">
-            <span className="text-[2.125rem] font-bold leading-none tracking-tight text-white drop-shadow-md sm:text-[2.625rem]">
+            <span className="text-lg md:text-xl xl:2xl 2xl:text-3xl font-bold leading-none tracking-tight text-white drop-shadow-md">
               250+
             </span>
-            <span className="text-[13px] font-normal leading-snug text-white">
+            <span className="text-[10px] lg:text-sm font-normal leading-snug text-white">
               Enjoy working with us
             </span>
           </div>

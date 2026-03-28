@@ -3,12 +3,14 @@ import Navbar from "@/components/Navbar";
 import Topics from "@/components/Topics";
 import About from "@/components/About";
 import Insights from "@/components/Insights";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
     <div >
        {/* Topics section */}
        <Navbar />
+       <Hero />
        <Topics />
        <About />
        <Insights />

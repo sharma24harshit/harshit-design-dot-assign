@@ -4,7 +4,7 @@ import Image from "next/image";
 const About = () => {
 
     return (
-        <section className='w-full mt-10'>
+        <section className='w-full mt-20'>
             <div className='max-w-[1820px]mx-auto px-8'>
             {/* <Image
                         className='mx-auto'

@@ -32,30 +32,30 @@ const Insights = () => {
 const mapIndex = [0,0,1,2]
 
     return (
-        <section className='w-full mt-10 mb-10'>
-            <div className='max-w-[1820px]mx-auto px-8'>
+        <section className='w-full mt-20 lg:mt-10 mb-10'>
+            <div className='max-w-[1820px]mx-auto px-4 md:px-8'>
 
                 <div className='grid grid-cols-1 lg:grid-cols-[53%_43%] gap-10 items-start'>
                     <div className="grid grid-cols-1 lg:grid-cols-[220px_1fr] gap-8 items-start">
-                        <div className='w-full h-[180px] bg- rounded-[20px] flex items-end justify-start text-left p-6 bg-[#EEEEEE]'>
-                            <p className='font-semibold text-4 uppercase'>
+                        <div className='w-full lg:h-[180px] rounded-[20px] flex items-end justify-start text-left p-4 lg:p-6 bg-[#EEEEEE]'>
+                            <p className='font-semibold text-lg md:text-xl lg:text-2xl uppercase'>
                                 INSPIRATION &
-                                <br />INSIGHTS
+                                <br className='hidden lg:block'/>INSIGHTS
                             </p>
                         </div>
 
                         <div className="flex flex-col gap-6">
                             {data?.map((item, index) => (
                                 <div key={index} onMouseEnter={() => setActive(mapIndex[index])} className='cursor-pointer pb-2  border-b-2 border-[#BABABA] hover:text-[#00338D] hover:border-[#00338D]'>
-                                    <p className='text-base font-semibold'>{item?.title}</p>
-                                    <p className='text-sm'>{item?.text}</p>
+                                    <p className='text-sm md:text-base font-semibold'>{item?.title}</p>
+                                    <p className='text-xs md:text-sm'>{item?.text}</p>
                                 </div>
                             ))}
 
 
                         </div>
                     </div>
-                    <div className='flex w-full h-[400px] gap-4'>
+                    <div className='flex w-full h-[300px] md:h-[400px] gap-4'>
                         {images.map((obj, index) => (
                             <div key={index}
                                 onMouseEnter={() => setActive(index)}

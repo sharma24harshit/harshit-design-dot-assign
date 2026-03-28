@@ -23,7 +23,7 @@ const data = [
 
 const images = [
     {title:"Pre-Market", text:"Evaluating Supply Chain Readiness Before Committing Capital in Emerging Markets", src:"/aboutImage.png"},
-     {title:"Operations", text:"Planning, organizing, and managing processes to efficiently produce goods or services", src:"/aboutImage.png"},
+     {title:"Operations", text:"Planning, organizing, and managing processes to efficiently produce goods", src:"/aboutImage.png"},
      {title:"Growth & Expansion", text:"Increasing business size, market reach, revenue, and resources to achieve long-term", src: "/aboutImage.png"}]
 
 const Insights = () => {
@@ -77,7 +77,7 @@ const mapIndex = [0,0,1,2]
                                          }`
                                          } >{obj?.title}</p>
                                         {active === index && ( <p 
-                                        className='absolute left-6 bottom-4 text-base max-w-[250px] transition-all duration-200 ease-all'
+                                        className='absolute left-6 bottom-4 text-sm md:text-base max-w-[250px] transition-all duration-200 ease-all'
                                         >{obj?.text}</p> )}
                                     </div>
                               

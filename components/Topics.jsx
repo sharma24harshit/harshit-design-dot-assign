@@ -10,10 +10,12 @@ const data = [
 
 const Topics = () => {
   return (
-    <section className='w-full mt-5'>
+    <section className='w-full mt-5 '>
         <div className='grid grid-cols-1 lg:grid-cols-[220px_1fr] gap-8 items-start mx-auto px-8'>
-          <button className='flex items-center justify-center bg-[#FF7300] rounded-md font-poppins text-xs font-semibold p-6 transition-all duration-300 hover:bg-orange-600 hover:shadow-md'>HOT TOPICS</button>
-          <div className='flex justify-evenly w-full gap-6 overflow-x-auto lg:overflow-visible'>
+          <button 
+          className='flex items-center justify-center bg-[#FF7300] rounded-md font-poppins text-base lg:text-sm 2xl:text-xs font-semibold p-3 md:p-4 xl:p-6 transition-all duration-300 hover:bg-orange-600 hover:shadow-md'>
+            HOT TOPICS</button>
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 place-items-center w-full gap-6 overflow-x-auto lg:overflow-visible'>
             {data?.map((item,index)=> (
                 <div key={index} className='max-w-[274px] h-[140px] cursor-pointer'>
                     <div className="relative flex flex-col items-w-full h-full border-t-2 border-[#00338D] transition-all duration-300">

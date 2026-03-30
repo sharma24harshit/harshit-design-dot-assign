@@ -3,10 +3,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className="relative h-350px md:h-[450px] xl:h-[600px] 2xl:h-[850px] bg-[#00338D] flex w-full overflow-hidden">
-          <div className="relative z-20 flex w-full flex-col justify-between px-6 py-10 sm:px-10 sm:py-12 md:px-12 md:py-14 lg:w-[42%] lg:max-w-[640px] lg:shrink-0 lg:px-14 lg:py-16 xl:px-[4.5rem] xl:py-20">
-        <div className="flex max-w-xl flex-col gap-4 lg:gap-4 xl:gap-4 xl:mt-16 2xl:mt-40">
-          <p className="font-bold uppercase leading-relaxed tracking-[0.2em] text-sm xl:text-base text-[#B8B3B3]">
+    <section className="relative h-350px md:h-[450px] xl:h-[530px] 2xl:h-[850px] bg-[#00338D] flex w-full overflow-hidden">
+          <div className="relative z-20 flex w-full flex-col justify-between px-6 py-10 sm:px-10 sm:py-12 md:px-12 md:py-14 md:w-[40%] lg:w-[35%] lg:max-w-[640px] lg:shrink-0 lg:px-14 lg:py-16 xl:px-6 xl:py-20">
+        <div className="flex max-w-xl flex-col gap-4 lg:gap-2 2xl:gap-4 xl:mt-16 2xl:mt-40">
+          <p className="font-bold uppercase leading-relaxed tracking-[0.2em] text-sm md:text-[10px] lg:text-[10px] 2xl:text-base text-[#B8B3B3]">
             Accountants and Global Business Advisors
           </p>
 
@@ -18,7 +18,7 @@ const Hero = () => {
             </span>
           </h1>
 
-          <p className="max-w-[420px] text-sm font-light leading-[1.65] text-[#FFFFFF] xl:text-base xl:max-w-md text-black md:text-white">
+          <p className="max-w-[420px] text-sm font-light leading-[1.65] text-[#FFFFFF] md:text-[10px] lg:text-xs 2xl:text-base xl:max-w-md text-black md:text-white">
             by fostering inclusivity, encouraging growth, promoting collaboration,
             valuing diversity, supporting innovation, and building trust for shared
             success.
@@ -27,7 +27,7 @@ const Hero = () => {
           <div >
             <button
               type="button"
-              className="origin-left md:min-w-[210px] lg:min-w-[250px] rounded-xl  bg-[#FF7F11] p-3 md:p-4 2xl:py-6 pl-7 pr-10 text-xs lg:text-sm 2xl:text-xs font-semibold uppercase tracking-[0.14em] text-black shadow-lg transition-[filter] hover:brightness-95"
+              className="origin-left lg:min-w-[210px] rounded-xl bg-[#FF7F11] p-3 md:p-4 2xl:py-6 pl-7 pr-10 text-[11px] lg:text-[11px] 2xl:text-xs lg:text-sm 2xl:text-xs font-semibold uppercase text-black shadow-lg transition-[filter] hover:brightness-95"
               style={{
                 clipPath: "polygon(0 0, 85% 0, 100% 100%, 0 100%)",
               }}
@@ -49,14 +49,14 @@ const Hero = () => {
           </div>
         </div>
 
-        <p className="w-full text-[10px] font-medium uppercase leading-relaxed tracking-[0.16em] text-red-300 md:text-white sm:text-[11px] lg:mt-8 xl:mt-14">
+        <p className="w-full text-[8px] font-medium uppercase leading-relaxed tracking-[0.16em] text-red-300 md:text-white sm:text-[9px] lg:text-[11px] lg:mt-8 xl:mt-14">
           Accounting, Taxation, & Business Advisory between India, Japan, and the
           World
         </p>
       </div>
 
-        <div className='absolute w-[100%] md:w-[60%] h-full md:-right-22 lg:-right-20 xl:-right-14 2xl:-right-10 md:-top-20 lg:-top-28 xl:-top-26 2xl:-top-48 rotate-0 md:-rotate-[32deg] overflow-hidden md:rounded-[70px] xl:rounded-[130px]'>
-        <div className='md:relative w-[100%] md:w-[150%] h-[100%] md:h-[150%] -left-[20%] -top-[20%] rotate-0 md:rotate-[32deg] rounded-xl'>
+        <div className='absolute w-[100%] md:w-[65%] h-full md:h-[110%] lg:h-[118%] xl:h-[120%] 2xl:h-[110%] md:-right-22 lg:-right-20 xl:-right-14 2xl:-right-10 md:-top-38 lg:-top-52 xl:-top-60 2xl:-top-74 rotate-0 md:-rotate-[38deg] overflow-hidden md:rounded-[70px] xl:rounded-[100px] 2xl:rounded-[180px]'>
+        <div className='md:relative w-[100%] md:w-[140%] h-[100%] md:h-[135%] -left-[35%] -top-[25%] rotate-0 md:rotate-[32deg]'>
         <Image
         className='object-cover'
                                 src="/insight2.jpg"
@@ -69,37 +69,37 @@ const Hero = () => {
 
         <div className="pointer-events-none absolute bottom-1 right-5 z-30 flex flex-wrap items-center gap-3 sm:bottom-10 sm:right-8 lg:bottom-12 lg:right-10 xl:bottom-14 xl:right-12">
           <div className="flex items-center">
-            <img
-              src="https://i.pravatar.cc/96?img=47"
-              alt=""
-              className="relative z-[1] size-11 rounded-full border-[3px] border-white object-cover shadow-md sm:size-12"
+            <Image
+              src="/avatar3.png"
+              alt="avatar"
+              className="relative z-[1] size-6 md:size-6 lg:size-8 xl:size-10 2xl:size-14 rounded-full border-[3px] border-white object-cover shadow-md"
               width={48}
               height={48}
             />
-            <img
-              src="https://i.pravatar.cc/96?img=12"
-              alt=""
-              className="relative z-[2] -ml-3 size-11 rounded-full border-[3px] border-white object-cover shadow-md sm:-ml-4 sm:size-12"
+            <Image
+              src="/avatar2.png"
+              alt="avatar"
+              className="relative z-[2] -ml-3 sm:-ml-3 md:-ml-3 lg:-ml-4 xl:-ml-5 2xl:-ml-6 size-6 md:size-6 lg:size-8 xl:size-10 2xl:size-14 rounded-full border-[3px] border-white object-cover shadow-md"
               width={48}
               height={48}
             />
-            <img
-              src="https://i.pravatar.cc/96?img=68"
-              alt=""
-              className="relative z-[3] -ml-3 size-11 rounded-full border-[3px] border-white object-cover shadow-md sm:-ml-4 sm:size-12"
+            <Image
+              src="/avatar1.png"
+              alt="avatar"
+              className="relative z-[3] -ml-3 sm:-ml-3 md:-ml-3 lg:-ml-4 xl:-ml-4 2xl:-ml-5 size-6 md:size-6 lg:size-8 xl:size-10 2xl:size-14 rounded-full border-[3px] border-white object-cover shadow-md"
               width={48}
               height={48}
             />
-          </div>
-          <div className="flex size-[50px] shrink-0 items-center justify-center rounded-full bg-[#FF7F11] text-center text-[10px] font-bold uppercase leading-tight tracking-wide text-white shadow-lg sm:size-[52px]">
+             <div className="relative z-[4] -ml-3 sm:-ml-3 md:-ml-3 lg:-ml-4 xl:-ml-5 2xl:-ml-7 flex size-6 md:size-6 lg:size-8 xl:size-10 2xl:size-14 shrink-0 items-center justify-center rounded-full bg-[#FF7F11] text-center text-[6px] md:text-[6px] lg:text-[8px] font-bold uppercase leading-tight tracking-wide text-white shadow-lg">
             More
           </div>
+          </div>
           <div className="flex min-w-0 flex-col gap-0.5 pl-0.5">
-            <span className="text-lg md:text-xl xl:2xl 2xl:text-3xl font-bold leading-none tracking-tight text-white drop-shadow-md">
+            <span className="text-[10px] sm:text-xs md:text-sm xl:text-lg 2xl:text-3xl font-bold leading-none tracking-tight text-white drop-shadow-md">
               250+
             </span>
-            <span className="text-[10px] lg:text-sm font-normal leading-snug text-white">
-              Enjoy working with us
+            <span className="text-[5px] sm:text-[5px] md:text-[6px] lg:text-[8px] 2xl:text-[10px] font-normal text-white">
+              Enjoy working <br /> with us
             </span>
           </div>
         </div>

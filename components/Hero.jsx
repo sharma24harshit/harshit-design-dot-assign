@@ -58,7 +58,7 @@ const Hero = () => {
         <div className='md:relative w-[100%] md:w-[150%] h-[100%] md:h-[150%] -left-[20%] -top-[20%] rotate-0 md:rotate-[32deg] rounded-xl'>
         <Image
         className='object-cover'
-                                src="/hero.jpg"
+                                src="/insight2.jpg"
                                 alt="hero image"
                                fill
                                 priority

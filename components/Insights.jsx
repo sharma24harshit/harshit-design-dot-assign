@@ -22,9 +22,9 @@ const data = [
 ];
 
 const images = [
-    {title:"Pre-Market", text:"Evaluating Supply Chain Readiness Before Committing Capital in Emerging Markets", src:"/aboutImage.png"},
-     {title:"Operations", text:"Planning, organizing, and managing processes to efficiently produce goods", src:"/aboutImage.png"},
-     {title:"Growth & Expansion", text:"Increasing business size, market reach, revenue, and resources to achieve long-term", src: "/aboutImage.png"}]
+    {title:"Pre-Market", text:"Evaluating Supply Chain Readiness Before Committing Capital in Emerging Markets", src:"/insight1.jpg"},
+     {title:"Operations", text:"Planning, organizing, and managing processes to efficiently produce goods", src:"/insight2.jpg"},
+     {title:"Growth & Expansion", text:"Increasing business size, market reach, revenue, and resources to achieve long-term", src: "/insight3.jpg"}]
 
 const Insights = () => {
     const [active, setActive] = useState(0);

@@ -26,7 +26,7 @@ const Navbar = () => {
   }, [menuOpen]);
 
   return (
-    <nav className="relative border-b border-transparent px-3 sm:px-5 sm:py-2.5 lg:border-0 lg:px-8 lg:py-2">
+    <nav className="relative border-b border-transparent px-3 sm:px-5 sm:py-2.5 lg:border-0 lg:px-8 lg:py-1">
       <div className="flex items-center justify-between gap-3">
         <div className="shrink-0 cursor-pointer">
           <Image
@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex min-w-0 flex-1 items-center justify-end gap-2 sm:gap-3 lg:gap-5">
-          <ul className="hidden items-center gap-3 font-bold text-color lg:flex lg:gap-4 text-xs lg:text-sm xl:gap-5 xl:text-base lg:mr-6 2xl:mr-12">
+          <ul className="hidden items-center gap-3 font-bold text-color lg:flex lg:gap-4 text-xs lg:text-xs xl:gap-5 xl:text-xs 2xl:text-base lg:mr-6 2xl:mr-12">
             {links.map((label) => (
               <li key={label}>
                 <a
@@ -59,10 +59,10 @@ const Navbar = () => {
               alt="search"
               width={30}
               height={30}
-              className="h-5 w-5 sm:h-6 sm:w-6 lg:h-7 lg:w-7 xl:h-[30px] xl:w-[30px]"
+              className="h-5 w-5 sm:h-6 sm:w-6 lg:h-6 lg:w-6 xl:h-6 2xl:h-[30xp] xl:w-6 2xl:w-[30px]"
               priority
             />
-            <p className="flex items-center gap-1 font-bold text-color text-[11px] sm:gap-1.5 sm:text-xs lg:text-sm xl:text-base">
+            <p className="flex items-center gap-1 font-bold text-color text-[11px] sm:gap-1.5 sm:text-xs 2xl:text-base">
               IND
               <Image
                 src="/dropDownArrow.svg"
@@ -73,7 +73,7 @@ const Navbar = () => {
                 priority
               />
             </p>
-            <p className="flex items-center gap-1 font-bold text-color text-[11px] sm:gap-1.5 sm:text-xs lg:text-sm xl:text-base">
+            <p className="flex items-center gap-1 font-bold text-color text-[11px] sm:gap-1.5 sm:text-xs 2xl:text-base">
               ENGLISH
               <Image
                 src="/dropDownArrow.svg"

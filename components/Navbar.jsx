@@ -26,7 +26,7 @@ const Navbar = () => {
   }, [menuOpen]);
 
   return (
-    <nav className="relative border-b border-transparent px-3 sm:px-5 sm:py-2.5 lg:border-0 lg:px-8 lg:py-1">
+    <nav className="relative border-b border-transparent px-3 sm:px-5 sm:py-2.5 lg:border-0 lg:px-8 lg:py-0">
       <div className="flex items-center justify-between gap-3">
         <div className="shrink-0 cursor-pointer">
           <Image

@@ -36,9 +36,18 @@ const About = () => {
                     </div>
                     </div>
                     <div className='relative flex flex-col justify-end aspect-[3/2]'>
-                        <div className='absolute top-0 right-0 max-w-[270px] min-w-[130px] text-xs font-semibold px-4 py-2 rounded-full flex justify-between items-center gap-8 bg-[#FF7300]'>
+                        <div className='absolute top-0 right-0 max-w-[270px] min-w-[130px] text-xs font-semibold px-4 py-2 rounded-full flex justify-between items-center gap-14 bg-[#FF7300]'>
                             We are located
-                            <span>India ^</span>
+                            <span className='flex items-center gap-3'>India 
+                            <Image
+                src="/dropDownArrow.svg"
+                alt="dropdown arrow"
+                width={13}
+                height={9}
+                className="h-2 w-auto opacity-90"
+                priority
+              />
+                            </span>
                         </div>
                         <Image
                         className='mt-12 object-cover rounded-xl'

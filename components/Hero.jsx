@@ -27,12 +27,13 @@ const Hero = () => {
           <div >
             <button
               type="button"
-              className="origin-left rounded-l-[10px] bg-[#FF7F11] p-3 md:p-4 2xl:py-6 pl-7 pr-10 text-xs lg:text-sm 2xl:text-xs font-semibold uppercase tracking-[0.14em] text-black shadow-lg transition-[filter] hover:brightness-95"
-              style={{ transform: "skewX(-14deg)" }}
+              className="origin-left md:min-w-[210px] lg:min-w-[250px] rounded-xl  bg-[#FF7F11] p-3 md:p-4 2xl:py-6 pl-7 pr-10 text-xs lg:text-sm 2xl:text-xs font-semibold uppercase tracking-[0.14em] text-black shadow-lg transition-[filter] hover:brightness-95"
+              style={{
+                clipPath: "polygon(0 0, 85% 0, 100% 100%, 0 100%)",
+              }}
             >
               <span
-                className="flex items-center gap-4"
-                style={{ transform: "skewX(14deg)" }}
+                className="flex items-center gap-4" 
               >
                 <Image
                   src="/rightArrow.svg"

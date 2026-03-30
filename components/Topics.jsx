@@ -38,7 +38,7 @@ const Topics = () => {
             {data?.map((item,index)=> (
                 <div key={index} className='max-w-[274px] h-[140px] cursor-pointer'>
                     <div className="relative flex flex-col items-w-full h-full border-t-2 border-[#00338D] transition-all duration-300">
-                        <p className='text-base font-poppins mt-3'>{item}</p>
+                        <p className='text-sm xl:text-sm 2xl:text-base font-poppins mt-3'>{item}</p>
                         <div className='absolute bottom-0 right-0 flex justify-end'>
                             <Image
                                 src="/rightArrow.svg"

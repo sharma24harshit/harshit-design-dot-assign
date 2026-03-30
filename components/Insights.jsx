@@ -72,12 +72,12 @@ const mapIndex = [0,0,1,2]
                                 
                                     <div className='text-white'>
                                         <p className={`absolute transition-all duration-500 ease-in-out w-[120px]
-                                            ${active === index ? "rotate-0 left-6 bottom-22 text-xl font-semibold" : 
-                                                "-rotate-90 left-[60%] bottom-20 -translate-x-1/2 origin-bottom text-xl font-semibold"
+                                            ${active === index ? "rotate-0 left-6 bottom-22 text-sm md:text-base xl:text-lg 2xl:text-xl font-semibold" : 
+                                                "-rotate-90 left-[60%] bottom-20 -translate-x-1/2 origin-bottom text-sm md:text-base xl:text-lg 2xl:text-xl font-semibold"
                                          }`
                                          } >{obj?.title}</p>
                                         {active === index && ( <p 
-                                        className='absolute left-6 bottom-4 text-sm md:text-base max-w-[250px] transition-all duration-200 ease-all'
+                                        className='absolute left-6 bottom-4 text-xs xl:text-sm 2xl:text-base max-w-[250px] transition-all duration-200 ease-all'
                                         >{obj?.text}</p> )}
                                     </div>
                               

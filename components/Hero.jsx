@@ -55,8 +55,8 @@ const Hero = () => {
         </p>
       </div>
 
-        <div className='absolute w-[100%] md:w-[65%] h-full md:h-[110%] lg:h-[118%] xl:h-[120%] 2xl:h-[110%] md:-right-22 lg:-right-20 xl:-right-14 2xl:-right-10 md:-top-38 lg:-top-52 xl:-top-60 2xl:-top-74 rotate-0 md:-rotate-[38deg] overflow-hidden md:rounded-[70px] xl:rounded-[100px] 2xl:rounded-[180px]'>
-        <div className='md:relative w-[100%] md:w-[140%] h-[100%] md:h-[135%] -left-[35%] -top-[25%] rotate-0 md:rotate-[32deg]'>
+        <div className='absolute w-[100%] md:w-[65%] h-full md:h-[110%] lg:h-[122%] xl:h-[118%] 2xl:h-[110%] md:-right-22 lg:-right-20 xl:-right-14 2xl:-right-10 md:-top-38 lg:-top-58 xl:-top-60 2xl:-top-74 rotate-0 md:-rotate-[38deg] overflow-hidden md:rounded-[70px] xl:rounded-[100px] 2xl:rounded-[180px]'>
+        <div className='md:relative w-[100%] md:w-[140%] h-[100%] md:h-[135%] -left-[35%] -top-[25%] rotate-0 md:rotate-[38deg]'>
         <Image
         className='object-cover'
                                 src="/insight2.jpg"
